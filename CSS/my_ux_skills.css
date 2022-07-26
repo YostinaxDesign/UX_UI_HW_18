@@ -5,7 +5,8 @@ div.logo {
     width: 23%;
     padding: 1%;
 }
-.topnav {
+ul.topnav {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -69,7 +70,27 @@ h1 {
     font-weight: 150;
     font-size: xx-large;
 }
-@media screen and (max-width: 600) {
- 
-     
+.hamburger {
+    display: none;
+}
+  @media screen and (max-width: 600px) {
+    ul.topnav {
+        display: hide;
+        width: auto;
+       }
+       img.logo {
+        display: flex;
+        width: 25%;
+       }
+       h1 {
+        font-size: x-large;
+       }
+    footer {
+        width: 100%;
+     }
+     ul.footer {
+        display: grid;
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+    }
 }
