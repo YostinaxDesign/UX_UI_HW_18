@@ -69,3 +69,7 @@ h1 {
     font-weight: 150;
     font-size: xx-large;
 }
+@media screen and (max-width: 600) {
+ 
+     
+}
