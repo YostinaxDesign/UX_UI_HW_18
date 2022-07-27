@@ -70,9 +70,6 @@ h1 {
     font-weight: 150;
     font-size: xx-large;
 }
-.hamburger {
-    display: none;
-}
   @media screen and (max-width: 600px) {
     ul.topnav {
         display: hide;
@@ -84,6 +81,7 @@ h1 {
        }
        h1 {
         font-size: x-large;
+        padding-top: 50px;
        }
     footer {
         width: 100%;

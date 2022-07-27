@@ -74,3 +74,40 @@ button {
     display: inline-block;
     font-size: 16px;
 }
+@media screen and (max-width: 600px) {
+    ul.topnav {
+        display: hide;
+        width: auto;
+       }
+       img.logo {
+        display: flex;
+        width: 25%;
+       }
+       h1 {
+        font-size: x-large;
+        padding-top: 50px;
+       }
+    footer {
+        width: 100%;
+     }
+     ul.footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    h1 {
+        padding-top: 100px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-weight: 150;
+        font-size: x-large;
+    }
+    div.workGrid {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 75%;
+        grid-template-columns: 1fr;
+        grid-template-rows: none|auto|max-content|min-content|length|initial|inherit;
+        
+    }
+    
+}
