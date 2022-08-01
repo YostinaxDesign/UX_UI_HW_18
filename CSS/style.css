@@ -22,13 +22,26 @@ ul:{
 div.logo {
     text-align: center;
 }
-section.heroimg {
-    height: 600px;
-    padding: 25px;
-}
+
 div.content {
     width: 500px;
     margin: 0 auto;
+    padding; 20px;
+    padding-top:  0;
+    font-family: 'Inter', sans-serif;
+    margin; 0 auto;
+    
+}
+
+img.profile {
+    margin: auto;
+    width: 90%;
+
+}
+
+p.paragraph {
+    margin: auto;
+    width: 100%;
 }
 footer{
     background-color: #373738;
@@ -41,7 +54,21 @@ li {
     padding: 20px;
 }
 .center {
-    color: red;
-    -ms-transform: translate(75%, 75%);
-    transform: translate(75%, 75%);
+    background: #73C0DA;
+    color: #fff;
+    font-family:'Inter', sans-serif;
+    display: block;
+    width: 140 px;
+    font-size: 24 px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+    
+   
 }
+
+
+-ms-transform: translate(75%, 75%);
+transform: translate(75%, 75%);

@@ -74,6 +74,7 @@ h1 {
     ul.topnav {
         display: hide;
         width: auto;
+        align-items: center;
        }
        img.logo {
         display: flex;
